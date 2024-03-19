@@ -3,7 +3,8 @@ import numpy as np
 import pickle
 import sklearn
 import os
-print("Current working directory:", os.getcwd())
+
+
 file_path = './NBmodel.pkl'
 
 if os.path.isfile(file_path):
